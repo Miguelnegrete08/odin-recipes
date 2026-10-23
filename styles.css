@@ -1,0 +1,28 @@
+body{
+    background-color: #C7E1EF;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    
+}
+
+.list_recipe, .page_title{
+    width: 400px;
+    background-color: #90C4E0;
+    margin: 16px auto;
+    padding: 8px;
+    font-size: 24px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.page_title{
+    background-color: #8FBDD6;
+    font-size: 32px;
+}
+
+li{
+    margin: 20px;
+}
