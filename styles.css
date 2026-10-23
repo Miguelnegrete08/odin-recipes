@@ -2,13 +2,22 @@ body{
     background-color: #C7E1EF;
 }
 
+.home{
+    display: block;
+    background-color: white;
+    padding: 10px;
+    border-radius: 13px;
+    text-align: start;
+    margin: auto;
+}
+
 ul{
     list-style: none;
     padding: 0px;
     
 }
 
-.list_recipe, .page_title{
+.list_recipe, .page_title, .desc, .ing, .steps{
     width: 400px;
     background-color: #90C4E0;
     margin: 16px auto;
@@ -25,4 +34,32 @@ ul{
 
 li{
     margin: 20px;
+}
+
+img{
+    display: block;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc, .ing{
+    width: 800px;
+}
+
+.steps{
+    width: 1200px;
+}
+
+.list{
+    padding-left: 20px;
+    text-align: start;
+}
+
+p, .list{
+    font-size: 20px;
+}
+
+h2{
+    margin-bottom: 12px;
 }
